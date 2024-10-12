@@ -15,9 +15,9 @@ function fibonacci(num) {
       if (a === num) { 
         return `O número ${num} pertence à sequência de Fibonacci.`; 
       }
-      next = a + b;
+      auxiliar = a + b;
       a = b; 
-      b = next; 
+      b = auxiliar; 
     }
   
     return `O número ${num} NÃO pertence à sequência de Fibonacci.`;
